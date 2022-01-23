@@ -1,9 +1,9 @@
-// SPDX-License-Identifier: Unlicense
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.11;
 
-import "@ds-test/test.sol";
+import "./base/BaseTest.sol";
 
-contract ContractTest is DSTest {
+contract ContractTest is BaseTest {
     function setUp() public {}
 
     function testExample() public {
